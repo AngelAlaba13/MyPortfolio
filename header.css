@@ -1,0 +1,78 @@
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(270, 24%, 15%);
+    color: white;
+    height: 45px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom-style:ridge;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 22%);
+    box-shadow: 0px 1px 0px rgb(43, 43, 43);
+    z-index: 100;
+}
+
+.aboutMe_head, .skills_head, .works_head, .contactMe_head {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ font-weight: 600;
+ cursor: pointer;
+ height: 56px;
+ width: 120px;
+ text-align: center;
+ align-content: center;
+}
+
+#about {
+    text-decoration: none;
+    color: inherit;
+}
+
+#skill {
+    text-decoration: none;
+    color: inherit;
+}
+
+#work {
+    text-decoration: none;
+    color: inherit;
+}
+
+ #contact {
+    text-decoration: none;
+    color: inherit;
+}
+
+.aboutMe_head {
+    text-decoration: none;
+    color: inherit;
+}
+
+.aboutMe_head:hover {
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: 4px;
+
+}
+
+.skills_head:hover {
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: 4px;
+}
+
+.works_head:hover {
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: 4px;
+}
+
+.contactMe_head:hover {
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: 4px;
+}
